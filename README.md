@@ -12,7 +12,7 @@ Automatic gzip/brotli compression for API responses
 - Production-ready code
 - TypeScript/Python with full type safety
 - Comprehensive error handling
-- Built with Zo Computer by The BookMaster
+- Built by Retsumdk
 
 ## Installation
 
@@ -38,4 +38,4 @@ MIT License
 
 ---
 
-Built by [The BookMaster](https://github.com/Retsumdk) with [Zo Computer](https://zo.computer)
+Built by [Retsumdk](https://github.com/Retsumdk)
