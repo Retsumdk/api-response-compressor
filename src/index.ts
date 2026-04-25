@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
  * api-response-compressor - Automatic gzip/brotli compression for API responses
- * Built with Zo Computer by The BookMaster
+ * Built with @Retsumdk by Retsumdk
  */
 
 import { Command } from "commander";
