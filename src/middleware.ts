@@ -10,9 +10,9 @@
 
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { createGzip, createBrotliCompress, createDeflate } from "node:zlib";
-import { compressSync, isCompressedEncoding } from "./compress";
-import { ResponseCompressor } from "./compressor";
-import type { Encoding } from "./negotiation";
+import { compressSync, isCompressedEncoding } from "./compress.js";
+import { ResponseCompressor } from "./compressor.js";
+import type { Encoding } from "./negotiation.js";
 
 /** Compress a WHATWG `Response` (works with `fetch`, Hono, Bun.serve, etc.). */
 export async function compressResponse(

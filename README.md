@@ -53,6 +53,14 @@ bun add api-response-compressor
 npm install api-response-compressor
 ```
 
+> **Install from GitHub** — this package is not published to the npm registry yet. Install the GitHub source directly (npm builds it on install via the `prepare` script):
+>
+> ```bash
+> npm install github:Retsumdk/api-response-compressor
+> ```
+>
+> Requires Node >= 18 (for built-in `zlib` brotli support).
+
 ### Hono / fetch / Bun.serve
 
 ```ts

@@ -11,7 +11,7 @@ export {
   type CompressorOptions,
   type CompressionDecision,
   type CompressResult,
-} from "./compressor";
+} from "./compressor.js";
 
 export {
   compress,
@@ -19,17 +19,17 @@ export {
   CONTENT_ENCODING,
   isCompressedEncoding,
   type CompressionOptions,
-} from "./compress";
+} from "./compress.js";
 
 export {
   negotiate,
   parseAcceptEncoding,
   type Encoding,
   type NegotiationOptions,
-} from "./negotiation";
+} from "./negotiation.js";
 
 export {
   compressResponse,
   compressionMiddleware,
   handleNode,
-} from "./middleware";
+} from "./middleware.js";

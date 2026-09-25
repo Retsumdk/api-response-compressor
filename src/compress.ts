@@ -14,7 +14,7 @@ import {
   type BrotliOptions,
   type ZlibOptions,
 } from "node:zlib";
-import type { Encoding } from "./negotiation";
+import type { Encoding } from "./negotiation.js";
 
 export interface CompressionOptions {
   /** zlib level 0-9 for gzip/deflate. Default: zlib default (6). */

@@ -6,8 +6,8 @@
  * produces the compressed body and the headers that must be set.
  */
 
-import { compressSync, isCompressedEncoding } from "./compress";
-import { negotiate, type Encoding } from "./negotiation";
+import { compressSync, isCompressedEncoding } from "./compress.js";
+import { negotiate, type Encoding } from "./negotiation.js";
 
 export interface CompressorOptions {
   /**

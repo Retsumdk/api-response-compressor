@@ -8,9 +8,9 @@
  */
 
 import { readFileSync } from "node:fs";
-import { compressSync } from "./compress";
-import { createCompressor } from "./compressor";
-import type { Encoding } from "./negotiation";
+import { compressSync } from "./compress.js";
+import { createCompressor } from "./compressor.js";
+import type { Encoding } from "./negotiation.js";
 
 function usage(): void {
   console.log(`api-response-compressor CLI
